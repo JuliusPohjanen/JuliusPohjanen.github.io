@@ -10,56 +10,67 @@ body {
     overflow-x: hidden;
     background-color: rgb(41, 41, 41, 0.8);
 }
-#Front_page{
+
+#Front_page {
     background-image: url("/assets/pictures/WinterNature.jpg");
     z-index: 1;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 }
-#oamkimg{
+
+#oamkimg {
     position: absolute;
-    top:85%;
+    top: 85%;
     margin-left: 0%;
     z-index: 1;
 }
-#portfolioimg{
+
+#portfolioimg {
     position: absolute;
-    margin-top:0;
+    margin-top: 0;
     z-index: 3;
 }
-#cv{
+
+#cv {
     background-color: white;
     font-size: 20;
     color: black;
     margin-left: 0px;
 }
+
 #CV_picture {
     position: absolute;
     top: 0px;
     margin-left: 0%;
     z-index: -1;
 }
+
 #portfolio {
     background-color: rgb(41, 41, 41, 0.8);
     font-size: 20;
     font-weight: 100;
     color: black;
 }
+
 h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
-    font-size: 50;;    
+    font-size: 50;
+    ;
     margin: 0;
     padding: 0;
 }
+
 h2 {
     color: white;
     font-family: 'Roboto', sans-serif;
 }
+
 a {
     color: white;
 }
+
 p {
     color: white;
     font-family: 'Roboto', sans-serif;
@@ -67,69 +78,77 @@ p {
     margin: 0;
     padding: 0;
 }
+
 div {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 
-#topbar{
+#topbar {
     background-color: orange;
-    padding-top:3px; 
+    padding-top: 3px;
 
 }
-#topbar2{
+
+#topbar2 {
     background-color: orange;
     padding-bottom: 3px;
 }
-#midbar{
+
+#midbar {
     margin-top: 0px;
     background-color: orange;
-    padding-top:3px; 
+    padding-top: 3px;
 }
 
-#midbar2{
+#midbar2 {
     margin-top: 0px;
     background-color: orange;
-    padding:3px; 
+    padding: 3px;
 
 }
-#bottombar{
+
+#bottombar {
     padding-bottom: 1.85%;
 }
 
-#bottombar3{
+#bottombar3 {
     margin-top: 0px;
     padding-bottom: 100%;
 }
 
 
-#blockname{
+#blockname {
     float: right;
     background-color: rgb(41, 41, 41, 0.8);
     z-index: 3;
 }
-#blockmenu{
+
+#blockmenu {
     z-index: 3;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25;
     padding-right: 25px;
 }
-#blockmenu2{
+
+#blockmenu2 {
     background-color: rgb(41, 41, 41, 0.8);
     z-index: 3;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 25;
-    
+
 }
+
 #block2 {
     font-size: 20;
     color: black;
     padding-right: 25px;
     padding-left: 25;
 }
+
 #block4 {
     font-size: 20;
     text-align: center;
@@ -137,6 +156,7 @@ div {
     padding-right: 25px;
     padding-left: 25;
 }
+
 #block5 {
     position: absolute;
     top: 20px;
@@ -150,7 +170,8 @@ div {
     padding-top: 15;
     padding-bottom: 15;
 }
-#linkback{
+
+#linkback {
     position: absolute;
     right: 20px;
     margin-top: 0;
@@ -162,15 +183,17 @@ div {
 }
 
 .text-container {
-    position: absolute; 
+    position: absolute;
     color: rgb(255, 255, 255);
     background-color: rgba(41, 41, 41, 0.8);
 }
+
 .text-container2 {
     position: absolute;
     color: rgb(255, 255, 255);
     background-color: rgb(41, 41, 41, 0.8);
 }
+
 .text-container3 {
     position: relative;
     color: rgb(255, 255, 255);
@@ -181,13 +204,15 @@ div {
     background-color: rgb(41, 41, 41, 0.8);
     font-size: 20;
 }
-.text-container4{
+
+.text-container4 {
     position: absolute;
     top: 3px;
     color: rgb(255, 255, 255);
     padding-right: 10px;
 }
-.project-container{
+
+.project-container {
     position: relative;
     font-size: 20;
     margin-top: 2%;
@@ -197,10 +222,11 @@ div {
     background-color: rgb(41, 41, 41, 0.8);
     padding-bottom: 10px;
     border: 3px solid orange;
-    
+
 }
-.project-container2{
-    position:relative;
+
+.project-container2 {
+    position: relative;
     font-size: 20;
     margin-top: 2%;
     color: rgb(255, 255, 255);
@@ -210,30 +236,28 @@ div {
     padding-bottom: 10px;
     border: 3px solid orange;
 }
+
 .thing-container {
     position: relative;
-    height: 52.8%;
+    font-size: 2vw;
+    margin-top: 0;
     color: rgb(255, 255, 255);
-    padding-bottom: 20px;
-    padding-left: 80px;
-    padding-right: 10px;
-    margin-top: 0%;
-    background-color: rgb(41, 41, 41, 0.8);
-    font-size: 24;
-    border: 3px solid orange;
+    padding: 1.5% 1.5% 3%;
+    background-color: rgba(41, 41, 41, 0.8);
+    font-size: 1vw;
+    border: 0.2vw solid orange;
 }
+
 .thing-container2 {
     position: relative;
     color: rgb(255, 255, 255);
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 10px;
-    margin-top: 0%;
-    background-color: rgb(41, 41, 41, 0.8);
-    font-size: 24;
-    border: 3px solid orange;
+    padding: 1.5% 1.5% 3%;
+    background-color: rgba(41, 41, 41, 0.8);
+    font-size: 1vw;
+    border: 0.2vw solid orange;
 }
-.contact-container{
+
+.contact-container {
     position: absolute;
     padding-top: 70px;
     padding-bottom: 20px;
@@ -243,6 +267,7 @@ div {
     background-color: rgb(41, 41, 41, 0.8);
     font-size: 24;
 }
+
 .link-container {
     background-color: rgb(41, 41, 41, 0.8);
     position: absolute;
@@ -251,7 +276,8 @@ div {
     transform: translate(-50%, -50%);
     border: 3px solid orange;
 }
-.link-container2{
+
+.link-container2 {
     position: absolute;
     margin-top: 10px;
     padding-top: 0px;
@@ -260,16 +286,19 @@ div {
     left: 45%;
     font-size: 24;
 }
-th{
+
+th {
     text-align: left;
     font-size: 24;
-    color:white;
+    color: white;
 }
-td{
+
+td {
     padding-left: 100px;
     font-size: 24;
-    color:white;
+    color: white;
 }
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -281,35 +310,41 @@ td{
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
-  }
-  
-  .sidenav a {
+}
+
+.sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
+}
+
+.sidenav a:hover {
     color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
+}
+
+.sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
-  }
-  
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
-  #mySidenav {
-    z-index: 2; 
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+#mySidenav {
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -320,67 +355,74 @@ td{
     transition: 0.5s;
     padding-top: 60px;
 }
-#img1  {
+
+#img1 {
     border: 3px solid orange;
     position: absolute;
-    top:110;
+    top: 110;
     left: 4.5%;
 }
-#img2  {
+
+#img2 {
     border: 3px solid orange;
     position: absolute;
     top: 110px;
     margin-left: 37%;
 }
-#img3  {
+
+#img3 {
     border: 3px solid orange;
     position: absolute;
     top: 110px;
     margin-left: 69.5%;
 }
-#img4  {
+
+#img4 {
     border: 3px solid orange;
     position: absolute;
     top: 540px;
     left: 4.5%;
 }
-#img5  {
+
+#img5 {
     border: 3px solid orange;
     position: absolute;
     top: 540px;
     margin-left: 37%;
 }
-#img6  {
+
+#img6 {
     border: 3px solid orange;
     position: absolute;
     top: 540px;
     margin-left: 69.5%;
 }
+
 #myImg {
     border-radius: 5px;
     border: 3px solid orange;
     cursor: pointer;
     transition: 0.3s;
-  }
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
 }
 
-/* Modal Content (image) */
+#myImg:hover {
+    opacity: 0.7;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
 .modal-content {
     margin: auto;
     display: block;
@@ -388,7 +430,6 @@ td{
     max-width: 700px;
 }
 
-/* Caption of Modal Image */
 .caption {
     margin: auto;
     display: block;
@@ -398,45 +439,55 @@ td{
     color: #ccc;
     padding: 10px 0;
     height: 150px;
-  }
+}
 
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
+.modal-content,
+#caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
 }
 
 @-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
+    from {
+        -webkit-transform: scale(0)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
 }
 
 @keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
 }
 
-/* The Close Button */
 .close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
 .close:hover,
 .close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-.prev, .next {
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -450,38 +501,43 @@ td{
     border: none;
     background: none;
     outline: none;
-  }
-  
-  .prev:hover, .next:hover {
+}
+
+.prev:hover,
+.next:hover {
     background-color: rgba(0, 0, 0, 0.5);
     color: orange;
-  }
-  
-  .prev {
+}
+
+.prev {
     left: 0;
-  }
-  
-  .next {
+}
+
+.next {
     right: 0;
-  }
-  .container {
+}
+
+.container {
     position: relative;
-    margin-top:100px;
-  }
-  @media (max-width: 768px) {
+    margin-top: 100px;
+}
+
+@media (max-width: 768px) {
     .text-container {
-        font-size: 18px; /* Adjust the font size for smaller screens */
-        padding-right: 5px; /* Adjust other properties as needed */
+        font-size: 18px;
+        padding-right: 5px;
     }
 }
+
 @media (max-width: 768px) {
     .link-container {
-        font-size: 18px; /* Adjust the font size for smaller screens */
-        padding-right: 5px; /* Adjust other properties as needed */
+        font-size: 18px;
+        padding-right: 5px;
     }
 }
-@media only screen and (max-width: 700px){
+
+@media only screen and (max-width: 700px) {
     .modal-content {
-      width: 100%;
+        width: 100%;
     }
-  }
+}
