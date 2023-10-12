@@ -473,14 +473,12 @@ td {
 
 .close {
     position: absolute;
-    width:300px;
     top: 15px;
-    right: 34235px; 
+    right: 15px; 
     color: white;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
-    background-color: rgba(0, 0, 0, 0.5);
     padding: 5px 10px;
     border-radius: 5px;
 }
