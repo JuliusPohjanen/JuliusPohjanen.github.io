@@ -239,8 +239,9 @@ div {
 
 .thing-container {
     position: relative;
-    font-size: 2vw;
-    margin-top: 0;
+    top:3%;
+    left: 0;
+    right: 0;
     color: rgb(255, 255, 255);
     padding: 1.5% 1.5% 3%;
     background-color: rgba(41, 41, 41, 0.8);
