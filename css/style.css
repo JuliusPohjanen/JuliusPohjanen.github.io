@@ -265,9 +265,7 @@ div {
     font-size: 24;
 }
 .link-container{
-    position: absolute;
-    top: 20%;
-    left: 44%;
+    float: center center;
     border: 3px solid orange;
 }
 .link-container2{
