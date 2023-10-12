@@ -21,7 +21,7 @@ body {
     position: absolute;
     top:85%;
     margin-left: 0%;
-    z-index: 3;
+    z-index: 1;
 }
 #portfolioimg{
     position: absolute;
@@ -103,16 +103,7 @@ div {
     padding-bottom: 100%;
 }
 
-#block2 {
-    background-color: rgb(41, 41, 41, 0.8);
-    font-size: 20;
-    color: black;
-    float: right;
-    padding-right: 50px;
-    padding-left: 50;
-    padding-bottom: 15;
-    padding-top: 15;
-}
+
 #blockname{
     float: right;
     background-color: rgb(41, 41, 41, 0.8);
@@ -134,9 +125,18 @@ div {
     padding-left: 25;
     
 }
+#block2 {
+    font-size: 20;
+    color: black;
+    padding-right: 25px;
+    padding-left: 25;
+}
 #block4 {
     font-size: 20;
-    font-weight: 100;
+    text-align: center;
+    color: black;
+    padding-right: 25px;
+    padding-left: 25;
 }
 #block5 {
     position: absolute;
@@ -245,6 +245,7 @@ div {
     font-size: 24;
 }
 .link-container {
+    background-color: rgb(41, 41, 41, 0.8);
     position: absolute;
     top: 40%;
     left: 50%;
