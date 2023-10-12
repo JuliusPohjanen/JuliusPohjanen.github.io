@@ -302,7 +302,7 @@ td {
 
 .sidenav {
     height: 100%;
-    width: 0;
+    width: 270px; /* Increase the width */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -320,18 +320,19 @@ td {
     color: #818181;
     display: block;
     transition: 0.3s;
-}
+    width: 250px;
+  }
 
 .sidenav a:hover {
     color: #f1f1f1;
 }
 
 .sidenav .closebtn {
+    color: white;
     position: absolute;
     top: 0;
-    right: 25px;
+    left:180; /* Adjust the right value as needed */
     font-size: 36px;
-    margin-left: 50px;
 }
 
 @media screen and (max-height: 450px) {
@@ -472,17 +473,22 @@ td {
 
 .close {
     position: absolute;
+    width:300px;
     top: 15px;
-    right: 35px;
-    color: #f1f1f1;
+    right: 34235px; 
+    color: white;
     font-size: 40px;
     font-weight: bold;
     transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
 .close:hover,
 .close:focus {
-    color: #bbb;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0.7);
     text-decoration: none;
     cursor: pointer;
 }
