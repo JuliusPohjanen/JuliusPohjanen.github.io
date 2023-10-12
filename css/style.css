@@ -37,7 +37,7 @@ body {
 #CV_picture {
     position: absolute;
     top: 0px;
-    left: 0px;
+    margin-left: 0%;
     z-index: -1;
 }
 #portfolio {
@@ -110,7 +110,6 @@ div {
     z-index: 3;
 }
 #blockmenu{
-    background-color: rgb(41, 41, 41, 0.8);
     z-index: 3;
     padding-top: 5px;
     padding-bottom: 5px;
