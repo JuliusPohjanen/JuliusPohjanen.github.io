@@ -81,6 +81,13 @@ p {
     padding: 0;
 }
 
+li{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24;
+    margin: 0;
+    padding: 0;
+}
 div {
     color: white;
     font-family: 'Roboto', sans-serif;
