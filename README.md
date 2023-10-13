@@ -39,5 +39,5 @@ a greater course number.
 Plan for the future of this website project is to add to it in the future and make it better as time goes on.
 
 ## Screenshots
-![screenshot 1]()
+![screenshot 1](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/assets/pictures/Frontpage.jpg)
 ![screenshot 1]()
