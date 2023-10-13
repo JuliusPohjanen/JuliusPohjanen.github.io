@@ -5,7 +5,7 @@
 ### File Locations
 - HTML files are on the front page of the porject's github page
 - CSS file is ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css)
-- JavaScript scripts files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
+- JavaScript scripts files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts)
 
 In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
 Judging by the Moodle course evaluation part, atleast these criteria have been met.
