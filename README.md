@@ -39,5 +39,12 @@ a greater course number.
 Plan for the future of this website project is to add to it in the future and make it better as time goes on.
 
 ## Screenshots
+Front page
 ![screenshot 1](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage.jpg)
-![screenshot 1]()
+Front page with side menu open
+![screenshot 2](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage_sidemenu.jpg)
+Project list 1
+![screenshot 3](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/projectlist1.jpg)
+Project list 2
+![screenshot 3](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/projectlist2.jpg)
+
