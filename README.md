@@ -1,6 +1,25 @@
 # Webbisovellusprojekti
  
-A brief description of your web course project.
+## Course Evaluation
+
+### File Locations
+- HTML files are on the front page of the porject's github page
+- CSS file is ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css)
+- JavaScript scripts files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
+
+In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
+Judging by the Moodle course evaluation part, atleast these criteria have been met.
+
+  ###HTML
+- 1/5 - 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
+  ###CSS
+- 1/5 - 5/5 parts of the CSS criteria I have implemented. CSS file ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css).
+  ###JS
+- 1/5 part is done, because there are simple interactions in the JavaScript. Files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
+- 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
+  ###Asynchronous Operations
+-
+
 
 ## Author
 
@@ -30,6 +49,7 @@ a greater course number.
 
 - Side menu that has the website navigation (can be opened and closed).
 - Images in the website can be opened and closed. Plus opened pictures can be navigated between.
+  Image navigation was done with event listeners
 - Responsive design, for the most part.
 - The website has an 5 minute timer that redirects the user to the front page in 5 minutes if nothing is done.
 - The timer gives an popup message if one minute is left.
@@ -39,6 +59,7 @@ a greater course number.
 Plan for the future of this website project is to add to it in the future and make it better as time goes on.
 
 ## Screenshots
+
 Front page
 ![screenshot 1](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage.jpg)
 Front page with side menu open
