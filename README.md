@@ -10,18 +10,18 @@
 In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
 Judging by the Moodle course evaluation part, atleast these criteria have been met.
 
-  ###HTML
+  HTML
 - from 1/5 through 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
-  ###CSS
+  CSS
 - from 1/5 through 5/5 parts of the CSS criteria I have implemented. CSS file ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css).
-  ###JS
+  JS
 - 1/5 part is done, because there are simple interactions in the JavaScript. Files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
 - 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
-  ###Asynchronous Operations
--1/5 part is done, because there is a timeout function that returns the user back to the front page in 5 minutes.
- When 1 minute is left it alerts the user. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
--2/5 part is done, because there is a API fetch for weather information. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/Weather_API_script.js)
--3/5 part is done, because the weather data is being displayed ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/WeatherInformation.html)
+  Asynchronous Operations
+- 1/5 part is done, because there is a timeout function that returns the user back to the front page in 5 minutes.
+  When 1 minute is left it alerts the user. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
+- 2/5 part is done, because there is a API fetch for weather information. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/Weather_API_script.js)
+- 3/5 part is done, because the weather data is being displayed ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/WeatherInformation.html)
 
 ## Author
 
@@ -62,12 +62,30 @@ Plan for the future of this website project is to add to it in the future and ma
 
 ## Screenshots
 
-###Front page
+Front page:
 ![screenshot 1](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage.jpg)
-###Front page with side menu open
+
+Front page with side menu open:
 ![screenshot 2](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage_sidemenu.jpg)
-Project list 1
+
+Project list 1:
 ![screenshot 3](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/projectlist1.jpg)
-Project list 2
+
+Project list 2:
 ![screenshot 3](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/projectlist2.jpg)
+
+Mini-sudoku project gallery:
+![screenshot 4](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/minisudokugallery.jpg)
+
+Mini-sudoku gallery opened image:
+![screenshot 5](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/minisudokuopenedimage.jpg)
+
+Banksimul project gallery:
+![screenshot 6](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/banksimulgallery.jpg)
+
+Banksimul gallery opened image:
+![screenshot 7](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/banksimulopenedimage.jpg)
+
+Weather Info page:
+![screenshot 8](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/WeatherInfo.jpg)
 
