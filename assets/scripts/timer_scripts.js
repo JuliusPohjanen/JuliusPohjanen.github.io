@@ -17,3 +17,5 @@ function redirectToFrontPage() {
   var oneMinuteInterval = setInterval(function () {
     oneMinuteRemainingAlarm();
   }, 240000);
+
+
