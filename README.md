@@ -8,15 +8,18 @@
 - JavaScript scripts files are ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/tree/main/assets/scripts)
 
 In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
-Judging by the Moodle course evaluation part, atleast these criteria have been met.
+Judging by the ![Moodle evaluation criteria](https://jukkapne.github.io/WebOhjelmoinninPerusteet/), atleast these criteria have been met.
 
   HTML
 - from 1/5 through 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
+  
   CSS
 - from 1/5 through 5/5 parts of the CSS criteria I have implemented. CSS file ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css).
+  
   JS
 - 1/5 part is done, because there are simple interactions in the JavaScript. Files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
 - 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
+  
   Asynchronous Operations
 - 1/5 part is done, because there is a timeout function that returns the user back to the front page in 5 minutes.
   When 1 minute is left it alerts the user. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
@@ -61,7 +64,6 @@ a greater course number.
 Plan for the future of this website project is to add to it in the future and make it better as time goes on.
 
 ## Screenshots
-
 Front page:
 ![screenshot 1](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/Frontpage.jpg)
 
@@ -88,4 +90,3 @@ Banksimul gallery opened image:
 
 Weather Info page:
 ![screenshot 8](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/pictures/WeatherInfo.jpg)
-
