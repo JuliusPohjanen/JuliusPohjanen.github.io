@@ -13,12 +13,15 @@ Judging by the ![Moodle evaluation criteria](https://jukkapne.github.io/WebOhjel
   HTML
 - from 1/5 through 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
   
+  
   CSS
 - from 1/5 through 5/5 parts of the CSS criteria I have implemented. CSS file ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css).
+  
   
   JS
 - 1/5 part is done, because there are simple interactions in the JavaScript. Files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
 - 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
+  
   
   Asynchronous Operations
 - 1/5 part is done, because there is a timeout function that returns the user back to the front page in 5 minutes.
