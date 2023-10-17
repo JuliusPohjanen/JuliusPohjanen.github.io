@@ -4,7 +4,7 @@ function updateCurrentDateTime() {
     const now = new Date();
 
     // Array of Finnish weekday names.
-    const weekdayNames = ['sunnuntai', 'maanantai', 'tiistai', 'keskiviikko', 'torstai', 'perjantai', 'lauantai'];
+    const weekdayNames = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
     // Get the day of the week as a number (0-6).
     const dayOfWeek = now.getDay();
@@ -13,7 +13,7 @@ function updateCurrentDateTime() {
     const dayOfMonth = now.getDate();
 
     // Get the month in Finnish.
-    const monthsInFinnish = ['tammikuuta', 'helmikuuta', 'maaliskuuta', 'huhtikuuta', 'toukokuuta', 'kesäkuuta', 'heinäkuuta', 'elokuuta', 'syyskuuta', 'lokakuuta', 'marraskuuta', 'joulukuuta'];
+    const monthsInFinnish = ['January', 'February', 'maaliskuuta', 'March', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
     const month = monthsInFinnish[now.getMonth()];
 
     // Get the year.
@@ -27,8 +27,8 @@ function updateCurrentDateTime() {
     const minutes = now.getMinutes();
     const formattedTime = `${hours}:${minutes < 10 ? '0' : ''}${minutes}`;
 
-    currentDateElement.textContent = `Current Date: ${formattedDate}`;
-    currentTimeElement.textContent = `Current Time: ${formattedTime}`;
+    currentDateElement.textContent = `Date: ${formattedDate}`;
+    currentTimeElement.textContent = `Time: ${formattedTime}`;
 }
 
 // Call the function to update the date and time immediately when the page loads.
