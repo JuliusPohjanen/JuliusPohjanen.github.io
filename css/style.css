@@ -18,7 +18,11 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+#current-date{
+    font-size: 20;
+    font-weight: 400;
 
+}
 #oamkimg {
     position: absolute;
     top: 85%;
@@ -259,6 +263,17 @@ div {
 
 .thing-container2 {
     position: relative;
+    color: rgb(255, 255, 255);
+    padding: 1.5% 1.5% 3%;
+    background-color: rgba(41, 41, 41, 0.8);
+    font-size: 1vw;
+    border: 0.2vw solid orange;
+}
+.weather-container {
+    position: relative;
+    top:3%;
+    left: 0;
+    right: 0;
     color: rgb(255, 255, 255);
     padding: 1.5% 1.5% 3%;
     background-color: rgba(41, 41, 41, 0.8);
