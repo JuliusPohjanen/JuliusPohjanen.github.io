@@ -9,8 +9,8 @@ The Project can be viewed online https://juliuspohjanen.github.io/FrontPage
 - CSS file is here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css
 - JavaScript scripts files are here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/tree/main/assets/scripts
 
-In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
-Judging by the Moodle evaluation criteria https://jukkapne.github.io/WebOhjelmoinninPerusteet/, atleast these criteria have been met.
+  In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
+  Judging by the Moodle evaluation criteria https://jukkapne.github.io/WebOhjelmoinninPerusteet/, atleast these criteria have been met.
 
   HTML
 - from 1/5 through 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
