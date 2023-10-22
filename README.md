@@ -21,7 +21,7 @@ Judging by the ![Moodle evaluation criteria](https://jukkapne.github.io/WebOhjel
   
   
   JS
-- 1/5 part is done, because there are simple interactions in the JavaScript. Files are ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/)
+- 1/5 part is done, because there are simple interactions in the JavaScript. Files are https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/
 - 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
   
   
