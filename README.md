@@ -1,35 +1,35 @@
 # Webbisovellusprojekti
 
-The Project can be viewed online ![here](https://juliuspohjanen.github.io/FrontPage).
+The Project can be viewed online https://juliuspohjanen.github.io/FrontPage
 
 ## Course Evaluation
 
 ### File Locations
 - HTML files are on the front page of the porject's github page
-- CSS file is ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css)
-- JavaScript scripts files are ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/tree/main/assets/scripts)
+- CSS file is here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css
+- JavaScript scripts files are here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/tree/main/assets/scripts
 
 In my fair oppinion, this project should get me a course number atlest between 2 and 3. 
-Judging by the ![Moodle evaluation criteria](https://jukkapne.github.io/WebOhjelmoinninPerusteet/), atleast these criteria have been met.
+Judging by the Moodle evaluation criteria https://jukkapne.github.io/WebOhjelmoinninPerusteet/, atleast these criteria have been met.
 
   HTML
 - from 1/5 through 5/5 parts of the HTML criteria I have implemented. HTML files are on front page of the porject's github page.
   
   
   CSS
-- from 1/5 through 5/5 parts of the CSS criteria I have implemented. CSS file ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css).
+- from 1/5 through 5/5 parts of the CSS criteria I have implemented. CSS file https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/css/style.css
   
   
   JS
-- 1/5 part is done, because there are simple interactions in the JavaScript. Files are https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/
-- 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
+- 1/5 part is done, because there are simple interactions in the JavaScript. Files are here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/
+- 2/5 part is done, because there are multiple event listeners for the opened images in project galleries. File is here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js
   
   
   Asynchronous Operations
 - 1/5 part is done, because there is a timeout function that returns the user back to the front page in 5 minutes.
-  When 1 minute is left it alerts the user. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js)
-- 2/5 part is done, because there is a API fetch for weather information. File is ![HERE]([https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/Weather_API_script.js)
-- 3/5 part is done, because the weather data is being displayed ![HERE](https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/WeatherInformation.html)
+  When 1 minute is left it alerts the user. File is here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/timer_scripts.js
+- 2/5 part is done, because there is a API fetch for weather information. File is here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/assets/scripts/Weather_API_script.js
+- 3/5 part is done, because the weather data is being displayed here https://github.com/JuliusPohjanen/JuliusPohjanen.github.io/blob/main/WeatherInformation.html
 
 ## Author
 
