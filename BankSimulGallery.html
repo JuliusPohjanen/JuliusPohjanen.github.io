@@ -7,84 +7,80 @@
 </head>
 
 <body>
-  <div id="topbar"></div>
-
-  <div class="text-container">
-    <div id="blockmenu"><span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; MENU</span></div>
-  </div>
-  <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="FrontPage.html">Etusivu</a>
-    <a href="/CV.html">CV</a>
-    <a href="/portfolio.html">Project List</a>
-    <a href="/Contact_info.html">Contact Info</a>
+  <div class="FP-top-nav">
+    <a href="FrontPage.html">Home</a>
+    <a href="assets/cv/julius-pohjanen-cv.pdf" download class="cv-download-link">Download My CV</a>
+    <a href="/Projects.html">Project List</a>
     <a href="/Aboutme.html">About Me</a>
-    <a href="/WeatherInformation.html">Weather Info</a>
-  </div>
-
-  <div id="img1">
-    <img class="myImg" src="assets/pictures/banksimul1.jpg" alt="Banksimul1" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+    <a href="/Contact_info.html">Get in Touch</a>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/julius-pohjanen-ab717633a/" target="_blank">
+        <img src="assets/pictures/linkedin.png" alt="linkedin" class="social-icon">
+      </a>
+      <a href="https://github.com/JuliusPohjanen" target="_blank">
+        <img src="assets/pictures/github.png" alt="github" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/juliuspohjanen/" target="_blank">
+        <img src="assets/pictures/instagram.png" alt="instagram" class="social-icon">
+      </a>
     </div>
   </div>
 
-  <div id="img2">
-    <img class="myImg" src="assets/pictures/banksimul2.jpg" alt="Banksimul2" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+  <div class="image-container">
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul1.jpg" alt="Welcome screen" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
+        <img class="modal-content" src="">
+        <button class="next" onclick="navigateImages(1)">&#10095;</button>
+        <div class="caption"></div>
+      </div>
     </div>
-  </div>
-
-  <div id="img3">
-    <img class="myImg" src="assets/pictures/banksimul3.jpg" alt="Banksimul3" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+  
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul2.jpg" alt="Enter the pincode for the card" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="">
+        <div class="caption"></div>
+      </div>
     </div>
-  </div>
-
-  <div id="img4">
-    <img class="myImg" src="assets/pictures/banksimul4.jpg" alt="Banksimul4" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+  
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul3.jpg" alt="Main menu for the banksimul" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="">
+        <div class="caption"></div>
+      </div>
     </div>
-  </div>
-
-  <div id="img5">
-    <img class="myImg" src="assets/pictures/banksimul5.jpg" alt="Banksimul5" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+  
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul4.jpg" alt="bank records" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="">
+        <div class="caption"></div>
+      </div>
     </div>
-  </div>
-
-  <div id="img6">
-    <img class="myImg" src="assets/pictures/banksimul6.jpg" alt="Banksimul6" style="width: 500px; height: 380px;">
-    <div class="myModal modal">
-      <span class="close">&times;</span>
-      <button class="prev" onclick="navigateImages(-1)">&#10094;</button>
-      <img class="modal-content" src="">
-      <button class="next" onclick="navigateImages(1)">&#10095;</button>
-      <div class="caption"></div>
+  
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul5.jpg" alt="Last bank transactions" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="">
+        <div class="caption"></div>
+      </div>
+    </div>
+  
+    <div class="image-item">
+      <img class="myImg" src="assets/pictures/banksimul6.jpg" alt="Withdraw money from the account" style="width:100%; max-width:500px;">
+      <div class="myModal modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" src="">
+        <div class="caption"></div>
+      </div>
     </div>
   </div>
 
