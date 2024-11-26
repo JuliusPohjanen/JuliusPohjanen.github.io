@@ -66,10 +66,6 @@ h1 {
     padding: 0;
 }
 
-h2 {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-}
 
 a {
     color: white;
@@ -183,6 +179,7 @@ div {
     border-radius: 5px; /* Rounded corners */
     margin: 0 15px; /* Horizontal spacing */
     transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
+    font-weight: bold;
 }
 
 .FP-top-nav a:hover {
@@ -398,13 +395,18 @@ div {
     border: 0.2vw solid orange;
 }
 
-.thing-container2 {
+.aboutme-container {
     position: relative;
     color: rgb(255, 255, 255);
-    padding: 1.5% 1.5% 3%;
-    background-color: rgba(41, 41, 41, 0.8);
-    font-size: 1vw;
-    border: 0.2vw solid orange;
+    background-color: #111;
+    padding: 0 20px;
+    border-radius: 15px;
+    margin: 0 20px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.aboutme-container p{
+    font-size: 17px;
 }
 .weather-container {
     position: relative;
@@ -419,14 +421,43 @@ div {
 }
 
 .contact-container {
-    position: absolute;
-    padding-top: 70px;
-    padding-bottom: 20px;
-    padding-right: 10px;
-    left: 49.8%;
-    top: 40;
-    background-color: rgb(41, 41, 41, 0.8);
-    font-size: 24;
+    display: flex; /* Enables Flexbox */
+    flex-direction: column; /* Stacks items vertically */
+    justify-content: center; /* Vertically centers items */
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    border-radius: 15px;
+    margin: 20px auto; /* Centers the container itself */
+    max-width: 500px; /* Optional: Limits the width for better aesthetics */
+    padding: 20px;
+}
+
+.contact-container h2 {
+    margin-bottom: 10px; /* Adds spacing below the header */
+    text-align: center; /* Ensures header text is centered */
+    padding: 0;
+}
+
+.contact-container table {
+    border-collapse: collapse; /* Removes default table borders */
+    width: 100%; /* Ensures table takes up the available width */
+    text-align: left; /* Aligns text to the left */
+}
+
+.contact-container td {
+    color: #ccc; /* Makes text more visually distinct */
+    padding: 0
+}
+
+.contact-container th {
+    color: white; /* Makes text more visually distinct */
+    font-size: 20;
+}
+
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
 }
 
 
@@ -533,9 +564,9 @@ td {
 
 
   .modal {
-    display: none; /* Hide the modal by default */
+    display: none; /* Hidden by default */
     position: fixed;
-    z-index: 1000; /* Ensure it's above other elements like the top-nav-bar */
+    z-index: 1000; /* Layer above other elements */
     top: 0;
     left: 0;
     width: 100%;
@@ -544,19 +575,21 @@ td {
     justify-content: center; /* Horizontally center */
     align-items: center; /* Vertically center */
     box-sizing: border-box;
-    overflow: auto;
-    padding-top: 10%; /* Add some padding for spacing */
+    overflow: hidden; /* Avoid scrollbars disrupting alignment */
 }
+
 .modal-content {
     margin: auto;
     display: block;
-    width: auto; /* Allow width to adjust dynamically */
-    max-width: 80%; /* Ensure the image doesn’t exceed 80% of the viewport width */
-    max-height: 80vh; /* Limit the image height to 80% of the viewport height */
+    max-width: 60%; /* Adjust to fit */
+    max-height: 80vh; /* Constrain to viewport height */
+    object-fit: contain; /* Maintain aspect ratio */
     position: relative;
-    z-index: 1001; /* Ensure modal image content is above everything else */
-    object-fit: contain; /* Ensures the image scales proportionally */
 }
+.myModal{
+    align-content: center;
+}
+
 
 .caption {
     margin: auto;
@@ -640,11 +673,10 @@ td {
 
 @media (min-width: 600px) and (max-width: 1195px) {
     .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        position: relative;
-        z-index: 1001; /* Ensure modal image content is above everything else */
+        max-width: 80%; /* Adjust for medium screens */
+        max-height: 70vh;
+    }
+    .myModal {
+        align-content: center;
     }
 }
