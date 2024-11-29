@@ -232,12 +232,12 @@ div {
 .FP-Image-container {
     flex-shrink: 0; /* Prevent shrinking */
     text-align: center; /* Center image */
-    margin-top: 20px; /* Add spacing on larger screens */
+    margin: 20px; /* Add spacing on larger screens */
 }
 
 .FP-Image-container img {
-    width: 350px; /* Image size */
-    height: 350px;
+    width: 450px; /* Image size */
+    height: 450px;
     border-radius: 50%; /* Round image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect */
     object-fit: cover; /* Maintain aspect ratio */
@@ -256,8 +256,8 @@ div {
     }
 
     .FP-Image-container img {
-        width: 220px; /* Smaller size for smaller screens */
-        height: 220px;
+        width: 320px; /* Smaller size for smaller screens */
+        height: 320px;
     }
 
     .FP-Name-container .text-block {
